@@ -333,7 +333,7 @@ OpenTelemetry で AI エージェントを計装し、Databricks 上で動かし
 - Zerobus は公式 OTLP バックエンドとして魅力的だが、**ストレージ前提を先に読むこと**
 - すぐ試すなら `export_mode=delta`、本番寄りの OTLP 搬送なら Zerobus
 
-次は本番 LLM（Model Serving）でのトークン・レイテンシ比較や、失敗スパンのアラートまでやりたい。
+続編: [OpenTelemetryでAIエージェントのLLM比較と失敗スパンアラートまでやってみた](https://zenn.dev/babysteps/articles/databricks-otel-llm-compare-alert)
 
 :::message
 生成 AI も活用しつつ、手順・エラー・着地確認は実際のワークスペースで検証した内容です。
